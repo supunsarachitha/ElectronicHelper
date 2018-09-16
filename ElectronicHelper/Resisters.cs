@@ -19,11 +19,14 @@ namespace ElectronicHelper
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.PreviewPage);
-            this.Title = "Capasitors Colour Code";
+            SetContentView(Resource.Layout.ImageView);
+            this.Title = "Resister Colour Code";
 
-            var Image = FindViewById<ImageView>(Resource.Id.ImageViewBox);
-            Image.SetImageResource(Resource.Drawable.ColourCodeResisters);
+            //android: src = "@drawable/ColourCodeResisters"
+
+            var Image = FindViewById<ElectronicHelper.Views.ScaleImageView>(Resource.Id.ScaleImg);
+
+           Image.SetImageResource(Resource.Drawable.ColourCodeResisters);
             // Create your application here
         }
     }

@@ -5,7 +5,7 @@
   <xs:import schemaLocation="schemas.android.com.tools.xsd" namespace="http://schemas.android.com/tools" />
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>09/15/2018 7:40:31 PM</xs:documentation>
+    <xs:documentation>09/16/2018 9:26:06 PM</xs:documentation>
   </xs:annotation>
   <xs:group name="any-view">
     <xs:choice>
@@ -119,6 +119,7 @@
       <xs:element ref="android.support.v4.view.PagerTitleStrip" />
       <xs:element ref="android.support.v4.view.PagerTabStrip" />
       <xs:element ref="android.support.v4.app.FragmentTabHost" />
+      <xs:element ref="ElectronicHelper.Views.ScaleImageView" />
       <xs:element ref="include" />
     </xs:choice>
   </xs:group>
@@ -1891,6 +1892,16 @@
   <xs:complexType name="android.support.v4.app.FragmentTabHost">
     <xs:complexContent mixed="false">
       <xs:extension base="TabHost" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ElectronicHelper.Views.ScaleImageView" type="ElectronicHelper.Views.ScaleImageView">
+    <xs:annotation>
+      <xs:documentation>Runtime Type: ElectronicHelper.Views.ScaleImageView</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="ElectronicHelper.Views.ScaleImageView">
+    <xs:complexContent mixed="false">
+      <xs:extension base="ImageView" />
     </xs:complexContent>
   </xs:complexType>
   <xs:element name="include" type="include">

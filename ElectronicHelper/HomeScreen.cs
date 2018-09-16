@@ -77,5 +77,26 @@ namespace ElectronicHelper
             StartActivity(intent);
 
         }
+
+        public override void OnBackPressed()
+        {
+
+                Android.App.AlertDialog.Builder dialog = new AlertDialog.Builder(this);
+                AlertDialog alert = dialog.Create();
+                alert.SetTitle("Exit");
+                alert.SetMessage("Do You want to exit?");
+                alert.SetIcon(Resource.Drawable.alert);
+                alert.SetButton("OK", (c, ev) =>
+                {
+                    this.Finish();
+                    base.OnBackPressed();
+                });
+                alert.SetButton2("CANCEL", (c, ev) => { });
+                alert.Show();
+
+
+
+            // Disable pressing back, yo!
+        }
     }
 }

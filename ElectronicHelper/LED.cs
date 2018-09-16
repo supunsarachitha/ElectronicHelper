@@ -19,10 +19,10 @@ namespace ElectronicHelper
         {
             base.OnCreate(savedInstanceState);
 
-            SetContentView(Resource.Layout.PreviewPage);
+            SetContentView(Resource.Layout.ImageView);
             this.Title = "LEDs";
 
-            var Image = FindViewById<ImageView>(Resource.Id.ImageViewBox);
+            var Image = FindViewById<ElectronicHelper.Views.ScaleImageView>(Resource.Id.ScaleImg);
             Image.SetImageResource(Resource.Drawable.LEDVoltage);
             // Create your application here
         }

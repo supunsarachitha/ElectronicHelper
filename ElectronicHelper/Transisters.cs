@@ -18,11 +18,11 @@ namespace ElectronicHelper
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.PreviewPage);
+            SetContentView(Resource.Layout.ImageView);
 
             this.Title = "Transisters";
 
-            var Image = FindViewById<ImageView>(Resource.Id.ImageViewBox);
+            var Image = FindViewById<ElectronicHelper.Views.ScaleImageView>(Resource.Id.ScaleImg);
             Image.SetImageResource(Resource.Drawable.TransistersCode);
 
             // Create your application here

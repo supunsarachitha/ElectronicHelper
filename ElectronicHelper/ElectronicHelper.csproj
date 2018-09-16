@@ -118,6 +118,7 @@
     <Compile Include="TableItem.cs" />
     <Compile Include="Transisters.cs" />
     <Compile Include="Views\Power.cs" />
+    <Compile Include="Views\ScaleImageView.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\HomeScreen.axml">
@@ -166,6 +167,11 @@
       <SubType>Designer</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\Drawable\power.png" />
+    <AndroidResource Include="Resources\Drawable\alert.png" />
+    <AndroidResource Include="Resources\Layout\ImageView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\pinch.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\CustomView.axml">

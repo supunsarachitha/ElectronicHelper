@@ -2,7 +2,7 @@
 <xs:schema xmlns:app="http://schemas.android.com/apk/res-auto" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/apk/res-auto" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v26</xs:documentation>
-    <xs:documentation>09/15/2018 7:40:31 PM</xs:documentation>
+    <xs:documentation>09/16/2018 9:26:06 PM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="allowStacking">
     <xs:annotation>
@@ -152,6 +152,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -175,6 +176,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -764,6 +766,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -787,6 +790,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -1307,6 +1311,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -1330,6 +1335,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -1991,6 +1997,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -2014,6 +2021,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -2685,6 +2693,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -2708,6 +2717,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -3228,6 +3238,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -3251,6 +3262,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -3882,6 +3894,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -3905,6 +3918,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -4768,6 +4782,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -4791,6 +4806,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -5323,6 +5339,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -5346,6 +5363,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -5935,6 +5953,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -5958,6 +5977,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -6478,6 +6498,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -6501,6 +6522,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -7122,6 +7144,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -7145,6 +7168,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -7677,6 +7701,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -7700,6 +7725,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -8389,6 +8415,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -8412,6 +8439,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -9234,6 +9262,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -9257,6 +9286,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -11034,6 +11064,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -11057,6 +11088,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -11746,6 +11778,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -11769,6 +11802,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />
@@ -12477,6 +12511,7 @@
             <xs:enumeration value="@drawable/abc_textfield_search_default_mtrl_alpha" />
             <xs:enumeration value="@drawable/abc_textfield_search_material" />
             <xs:enumeration value="@drawable/abc_vector_test" />
+            <xs:enumeration value="@drawable/alert" />
             <xs:enumeration value="@drawable/calculation" />
             <xs:enumeration value="@drawable/capacitorcode" />
             <xs:enumeration value="@drawable/capacitors" />
@@ -12500,6 +12535,7 @@
             <xs:enumeration value="@drawable/notification_tile_bg" />
             <xs:enumeration value="@drawable/notify_panel_notification_icon_bg" />
             <xs:enumeration value="@drawable/ohmslaw" />
+            <xs:enumeration value="@drawable/pinch" />
             <xs:enumeration value="@drawable/power" />
             <xs:enumeration value="@drawable/resisters" />
             <xs:enumeration value="@drawable/tooltip_frame_dark" />

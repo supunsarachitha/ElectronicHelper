@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" package="lk.stechbuzz.electronic" android:versionCode="2" android:versionName="1.1">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="preferExternal" package="lk.stechbuzz.electronic" android:versionCode="4" android:versionName="1.3">
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <application android:label="ElectronicHelper" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
@@ -18,5 +18,5 @@
     <activity android:label="Power" android:name="md560dfb61d14af92fdf26ef52dd2fb58f6.Power" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="lk.stechbuzz.electronic.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
-  <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="27" />
+  <uses-sdk android:minSdkVersion="18" android:targetSdkVersion="27" />
 </manifest>
