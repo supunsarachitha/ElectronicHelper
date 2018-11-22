@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
   <Jars>
+    <Jar>obj\Release\lp\1\jl\arch-core-common.jar</Jar>
+    <Jar>obj\Release\lp\2\jl\arch-lifecycle-common.jar</Jar>
+    <Jar>obj\Release\lp\5\jl\support-annotations.jar</Jar>
     <Jar>D:\Portable Apps\Documents\GitHub\ElectronicHelper\ElectronicHelper\obj\Release\lp\1\jl\arch-core-common.jar</Jar>
     <Jar>D:\Portable Apps\Documents\GitHub\ElectronicHelper\ElectronicHelper\obj\Release\lp\10\jl\bin\classes.jar</Jar>
     <Jar>D:\Portable Apps\Documents\GitHub\ElectronicHelper\ElectronicHelper\obj\Release\lp\11\jl\bin\classes.jar</Jar>

@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace ElectronicHelper
 {
-    [Activity(Label = "Transisters")]
+    [Activity(Label = "Transister types")]
     public class Transisters : Activity
     {
         protected override void OnCreate(Bundle savedInstanceState)

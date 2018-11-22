@@ -24,6 +24,10 @@ namespace ElectronicHelper
 			global::Android.Runtime.ResourceIdManager.UpdateIdValues();
 		}
 		
+		public static void UpdateIdValues()
+		{
+		}
+		
 		public partial class Animation
 		{
 			
@@ -1748,47 +1752,95 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F010002
 			public const int alert = 2130771970;
 			
-			// aapt resource value: 0x7F010019
-			public const int Bulbs = 2130771993;
-			
 			// aapt resource value: 0x7F010003
-			public const int calculation = 2130771971;
+			public const int And = 2130771971;
 			
 			// aapt resource value: 0x7F010004
-			public const int CapacitorCode = 2130771972;
+			public const int andtable = 2130771972;
+			
+			// aapt resource value: 0x7F010043
+			public const int Bulbs = 2130772035;
 			
 			// aapt resource value: 0x7F010005
-			public const int Capacitors = 2130771973;
+			public const int calculation = 2130771973;
 			
 			// aapt resource value: 0x7F010006
-			public const int ColourCodeResisters = 2130771974;
+			public const int CapacitorCode = 2130771974;
 			
 			// aapt resource value: 0x7F010007
-			public const int CustomSelector = 2130771975;
-			
-			// aapt resource value: 0x7F010020
-			public const int FlowerBuds = 2130772000;
-			
-			// aapt resource value: 0x7F010021
-			public const int Fruits = 2130772001;
+			public const int Capacitors = 2130771975;
 			
 			// aapt resource value: 0x7F010008
-			public const int Icon = 2130771976;
+			public const int CoaxialCable = 2130771976;
 			
 			// aapt resource value: 0x7F010009
-			public const int LED = 2130771977;
+			public const int ColourCodeResisters = 2130771977;
 			
 			// aapt resource value: 0x7F010010
-			public const int LEDVoltage = 2130771984;
-			
-			// aapt resource value: 0x7F010022
-			public const int Legumes = 2130772002;
+			public const int CustomSelector = 2130771984;
 			
 			// aapt resource value: 0x7F010011
-			public const int Logo = 2130771985;
+			public const int ENOR = 2130771985;
 			
 			// aapt resource value: 0x7F010012
-			public const int mybutton = 2130771986;
+			public const int enortable = 2130771986;
+			
+			// aapt resource value: 0x7F010013
+			public const int EOR = 2130771987;
+			
+			// aapt resource value: 0x7F010014
+			public const int eortable = 2130771988;
+			
+			// aapt resource value: 0x7F010044
+			public const int FlowerBuds = 2130772036;
+			
+			// aapt resource value: 0x7F010045
+			public const int Fruits = 2130772037;
+			
+			// aapt resource value: 0x7F010015
+			public const int globe = 2130771989;
+			
+			// aapt resource value: 0x7F010016
+			public const int Icon = 2130771990;
+			
+			// aapt resource value: 0x7F010017
+			public const int IconCoxial = 2130771991;
+			
+			// aapt resource value: 0x7F010018
+			public const int iconplugs = 2130771992;
+			
+			// aapt resource value: 0x7F010019
+			public const int intPlugTypesByCountry = 2130771993;
+			
+			// aapt resource value: 0x7F010020
+			public const int LED = 2130772000;
+			
+			// aapt resource value: 0x7F010021
+			public const int LEDVoltage = 2130772001;
+			
+			// aapt resource value: 0x7F010046
+			public const int Legumes = 2130772038;
+			
+			// aapt resource value: 0x7F010022
+			public const int Logo = 2130772002;
+			
+			// aapt resource value: 0x7F010023
+			public const int mybutton = 2130772003;
+			
+			// aapt resource value: 0x7F010024
+			public const int NAND = 2130772004;
+			
+			// aapt resource value: 0x7F010025
+			public const int nandtable = 2130772005;
+			
+			// aapt resource value: 0x7F010026
+			public const int NOR = 2130772006;
+			
+			// aapt resource value: 0x7F010027
+			public const int nortable = 2130772007;
+			
+			// aapt resource value: 0x7F010028
+			public const int NOT = 2130772008;
 			
 			// aapt resource value: 0x7F090001
 			public const int notification_action_background = 2131296257;
@@ -1826,17 +1878,32 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F09000C
 			public const int notify_panel_notification_icon_bg = 2131296268;
 			
-			// aapt resource value: 0x7F010013
-			public const int ohmslaw = 2130771987;
+			// aapt resource value: 0x7F010029
+			public const int nottable = 2130772009;
 			
-			// aapt resource value: 0x7F010014
-			public const int pinch = 2130771988;
+			// aapt resource value: 0x7F010030
+			public const int ohmslaw = 2130772016;
 			
-			// aapt resource value: 0x7F010015
-			public const int power = 2130771989;
+			// aapt resource value: 0x7F010031
+			public const int OR = 2130772017;
 			
-			// aapt resource value: 0x7F010016
-			public const int Resisters = 2130771990;
+			// aapt resource value: 0x7F010032
+			public const int ortable = 2130772018;
+			
+			// aapt resource value: 0x7F010033
+			public const int pinch = 2130772019;
+			
+			// aapt resource value: 0x7F010034
+			public const int plug = 2130772020;
+			
+			// aapt resource value: 0x7F010035
+			public const int plugtypes = 2130772021;
+			
+			// aapt resource value: 0x7F010036
+			public const int power = 2130772022;
+			
+			// aapt resource value: 0x7F010037
+			public const int Resisters = 2130772023;
 			
 			// aapt resource value: 0x7F090060
 			public const int tooltip_frame_dark = 2131296352;
@@ -1844,17 +1911,26 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F090061
 			public const int tooltip_frame_light = 2131296353;
 			
-			// aapt resource value: 0x7F010017
-			public const int Transisters = 2130771991;
+			// aapt resource value: 0x7F010038
+			public const int Transisters = 2130772024;
 			
-			// aapt resource value: 0x7F010018
-			public const int TransistersCode = 2130771992;
+			// aapt resource value: 0x7F010039
+			public const int TransistersCode = 2130772025;
 			
-			// aapt resource value: 0x7F010023
-			public const int Tubers = 2130772003;
+			// aapt resource value: 0x7F010047
+			public const int Tubers = 2130772039;
 			
-			// aapt resource value: 0x7F010024
-			public const int Vegetables = 2130772004;
+			// aapt resource value: 0x7F010040
+			public const int usbicon = 2130772032;
+			
+			// aapt resource value: 0x7F010041
+			public const int usbtypes = 2130772033;
+			
+			// aapt resource value: 0x7F010048
+			public const int Vegetables = 2130772040;
+			
+			// aapt resource value: 0x7F010042
+			public const int VoltageByCountry = 2130772034;
 			
 			static Drawable()
 			{
@@ -1869,8 +1945,8 @@ namespace ElectronicHelper
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F020011
-			public const int absoluteLayout1 = 2130837521;
+			// aapt resource value: 0x7F020016
+			public const int absoluteLayout1 = 2130837526;
 			
 			// aapt resource value: 0x7F0C0001
 			public const int action0 = 2131492865;
@@ -1944,14 +2020,14 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C0007
 			public const int blocking = 2131492871;
 			
-			// aapt resource value: 0x7F020020
-			public const int btnReadMoreOhm = 2130837536;
+			// aapt resource value: 0x7F020025
+			public const int btnReadMoreOhm = 2130837541;
 			
 			// aapt resource value: 0x7F0C0018
 			public const int buttonPanel = 2131492888;
 			
-			// aapt resource value: 0x7F020018
-			public const int CalButtonOhm = 2130837528;
+			// aapt resource value: 0x7F020023
+			public const int CalButtonOhm = 2130837539;
 			
 			// aapt resource value: 0x7F0C0009
 			public const int cancel_action = 2131492873;
@@ -1962,8 +2038,8 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C0008
 			public const int chronometer = 2131492872;
 			
-			// aapt resource value: 0x7F020019
-			public const int ClearOhm = 2130837529;
+			// aapt resource value: 0x7F020024
+			public const int ClearOhm = 2130837540;
 			
 			// aapt resource value: 0x7F0C001B
 			public const int contentPanel = 2131492891;
@@ -1995,6 +2071,9 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C0009
 			public const int forever = 2131492873;
 			
+			// aapt resource value: 0x7F020015
+			public const int frameLayout1 = 2130837525;
+			
 			// aapt resource value: 0x7F0C0024
 			public const int home = 2131492900;
 			
@@ -2007,6 +2086,12 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F020007
 			public const int Image = 2130837511;
 			
+			// aapt resource value: 0x7F020012
+			public const int ImageGate1 = 2130837522;
+			
+			// aapt resource value: 0x7F020013
+			public const int ImageGate2 = 2130837523;
+			
 			// aapt resource value: 0x7F020010
 			public const int ImageViewBox = 2130837520;
 			
@@ -2016,14 +2101,14 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C000D
 			public const int italic = 2131492877;
 			
-			// aapt resource value: 0x7F020014
-			public const int lblCurrent = 2130837524;
+			// aapt resource value: 0x7F020019
+			public const int lblCurrent = 2130837529;
 			
-			// aapt resource value: 0x7F020016
-			public const int lblResistance = 2130837526;
+			// aapt resource value: 0x7F020021
+			public const int lblResistance = 2130837537;
 			
-			// aapt resource value: 0x7F020012
-			public const int lblVolt = 2130837522;
+			// aapt resource value: 0x7F020017
+			public const int lblVolt = 2130837527;
 			
 			// aapt resource value: 0x7F0C000E
 			public const int line1 = 2131492878;
@@ -2046,11 +2131,11 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C0013
 			public const int media_actions = 2131492883;
 			
-			// aapt resource value: 0x7F020023
-			public const int menu_save = 2130837539;
+			// aapt resource value: 0x7F020028
+			public const int menu_save = 2130837544;
 			
-			// aapt resource value: 0x7F020022
-			public const int menu_settings = 2130837538;
+			// aapt resource value: 0x7F020027
+			public const int menu_settings = 2130837543;
 			
 			// aapt resource value: 0x7F0C002E
 			public const int message = 2131492910;
@@ -2187,6 +2272,12 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C0057
 			public const int textSpacerNoTitle = 2131492951;
 			
+			// aapt resource value: 0x7F020011
+			public const int textView1 = 2130837521;
+			
+			// aapt resource value: 0x7F020014
+			public const int textViewGate = 2130837524;
+			
 			// aapt resource value: 0x7F0C0019
 			public const int time = 2131492889;
 			
@@ -2205,17 +2296,17 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0C005C
 			public const int topPanel = 2131492956;
 			
-			// aapt resource value: 0x7F020015
-			public const int txtCurrent = 2130837525;
+			// aapt resource value: 0x7F020020
+			public const int txtCurrent = 2130837536;
 			
-			// aapt resource value: 0x7F020017
-			public const int txtResistance = 2130837527;
+			// aapt resource value: 0x7F020022
+			public const int txtResistance = 2130837538;
 			
-			// aapt resource value: 0x7F020013
-			public const int txtVolt = 2130837523;
+			// aapt resource value: 0x7F020018
+			public const int txtVolt = 2130837528;
 			
-			// aapt resource value: 0x7F020021
-			public const int txtWatt = 2130837537;
+			// aapt resource value: 0x7F020026
+			public const int txtWatt = 2130837542;
 			
 			// aapt resource value: 0x7F0C005D
 			public const int uniform = 2131492957;
@@ -2357,6 +2448,12 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F030005
 			public const int ImageView = 2130903045;
 			
+			// aapt resource value: 0x7F030006
+			public const int LogicGateLayout = 2130903046;
+			
+			// aapt resource value: 0x7F030007
+			public const int Main = 2130903047;
+			
 			// aapt resource value: 0x7F0F0001
 			public const int notification_action = 2131689473;
 			
@@ -2402,14 +2499,14 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0F0006
 			public const int notification_template_part_time = 2131689478;
 			
-			// aapt resource value: 0x7F030006
-			public const int ohmslawView = 2130903046;
-			
-			// aapt resource value: 0x7F030007
-			public const int PowerView = 2130903047;
-			
 			// aapt resource value: 0x7F030008
-			public const int PreviewPage = 2130903048;
+			public const int ohmslawView = 2130903048;
+			
+			// aapt resource value: 0x7F030009
+			public const int PowerView = 2130903049;
+			
+			// aapt resource value: 0x7F030010
+			public const int PreviewPage = 2130903056;
 			
 			// aapt resource value: 0x7F0F0021
 			public const int select_dialog_item_material = 2131689505;
@@ -2423,8 +2520,8 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F0F0024
 			public const int support_simple_spinner_dropdown_item = 2131689508;
 			
-			// aapt resource value: 0x7F030009
-			public const int toolbar = 2130903049;
+			// aapt resource value: 0x7F030011
+			public const int toolbar = 2130903057;
 			
 			// aapt resource value: 0x7F0F0025
 			public const int tooltip = 2131689509;
@@ -2591,11 +2688,26 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F15001D
 			public const int abc_toolbar_collapse_description = 2132082717;
 			
+			// aapt resource value: 0x7F070002
+			public const int app_name = 2131165186;
+			
+			// aapt resource value: 0x7F070006
+			public const int Logic_Geate_Label = 2131165190;
+			
 			// aapt resource value: 0x7F15001E
 			public const int search_menu_title = 2132082718;
 			
+			// aapt resource value: 0x7F070005
+			public const int sessions_tab_label = 2131165189;
+			
+			// aapt resource value: 0x7F070004
+			public const int speakers_tab_label = 2131165188;
+			
 			// aapt resource value: 0x7F150001
 			public const int status_bar_notification_info_overflow = 2132082689;
+			
+			// aapt resource value: 0x7F070003
+			public const int whatson_tab_label = 2131165187;
 			
 			static String()
 			{
@@ -3099,8 +3211,17 @@ namespace ElectronicHelper
 			// aapt resource value: 0x7F1600A3
 			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2132148387;
 			
-			// aapt resource value: 0x7F070002
-			public const int MyTheme = 2131165186;
+			// aapt resource value: 0x7F080002
+			public const int MyTheme = 2131230722;
+			
+			// aapt resource value: 0x7F080003
+			public const int MyTheme_ActionBar_TabBar = 2131230723;
+			
+			// aapt resource value: 0x7F080005
+			public const int MyTheme_ActionBar_TabText = 2131230725;
+			
+			// aapt resource value: 0x7F080004
+			public const int MyTheme_ActionBar_TabView = 2131230724;
 			
 			// aapt resource value: 0x7F1600A4
 			public const int Platform_AppCompat = 2132148388;
@@ -3722,11 +3843,11 @@ namespace ElectronicHelper
 			public static int[] ActionBarLayout = new int[] {
 					16842931};
 			
-			// aapt resource value: 0x7F080047
-			public const int ActionBarLayout_android_layout_gravity = 2131230791;
+			// aapt resource value: 0x7F090047
+			public const int ActionBarLayout_android_layout_gravity = 2131296327;
 			
-			// aapt resource value: 0x7F080017
-			public const int ActionBar_background = 2131230743;
+			// aapt resource value: 0x7F090017
+			public const int ActionBar_background = 2131296279;
 			
 			// aapt resource value: 0x1
 			public const int ActionBar_backgroundSplit = 1;
@@ -3815,8 +3936,8 @@ namespace ElectronicHelper
 			public static int[] ActionMenuItemView = new int[] {
 					16843071};
 			
-			// aapt resource value: 0x7F080049
-			public const int ActionMenuItemView_android_minWidth = 2131230793;
+			// aapt resource value: 0x7F090049
+			public const int ActionMenuItemView_android_minWidth = 2131296329;
 			
 			public static int[] ActionMode = new int[] {
 					2130968626,
@@ -3826,8 +3947,8 @@ namespace ElectronicHelper
 					2130968776,
 					2130968812};
 			
-			// aapt resource value: 0x7F080051
-			public const int ActionMode_background = 2131230801;
+			// aapt resource value: 0x7F090051
+			public const int ActionMode_background = 2131296337;
 			
 			// aapt resource value: 0x1
 			public const int ActionMode_backgroundSplit = 1;
@@ -3848,8 +3969,8 @@ namespace ElectronicHelper
 					2130968687,
 					2130968710};
 			
-			// aapt resource value: 0x7F080058
-			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131230808;
+			// aapt resource value: 0x7F090058
+			public const int ActivityChooserView_expandActivityOverflowButtonDrawable = 2131296344;
 			
 			// aapt resource value: 0x1
 			public const int ActivityChooserView_initialActivityCount = 1;
@@ -3863,8 +3984,8 @@ namespace ElectronicHelper
 					2130968763,
 					2130968764};
 			
-			// aapt resource value: 0x7F080061
-			public const int AlertDialog_android_layout = 2131230817;
+			// aapt resource value: 0x7F090061
+			public const int AlertDialog_android_layout = 2131296353;
 			
 			// aapt resource value: 0x1
 			public const int AlertDialog_buttonPanelSideLayout = 1;
@@ -3890,8 +4011,8 @@ namespace ElectronicHelper
 					2130968801,
 					2130968802};
 			
-			// aapt resource value: 0x7F080069
-			public const int AppCompatImageView_android_src = 2131230825;
+			// aapt resource value: 0x7F090069
+			public const int AppCompatImageView_android_src = 2131296361;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatImageView_srcCompat = 1;
@@ -3908,8 +4029,8 @@ namespace ElectronicHelper
 					2130968799,
 					2130968800};
 			
-			// aapt resource value: 0x7F080074
-			public const int AppCompatSeekBar_android_thumb = 2131230836;
+			// aapt resource value: 0x7F090074
+			public const int AppCompatSeekBar_android_thumb = 2131296372;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatSeekBar_tickMark = 1;
@@ -3929,8 +4050,8 @@ namespace ElectronicHelper
 					16843117,
 					16842804};
 			
-			// aapt resource value: 0x7F080079
-			public const int AppCompatTextHelper_android_drawableBottom = 2131230841;
+			// aapt resource value: 0x7F090079
+			public const int AppCompatTextHelper_android_drawableBottom = 2131296377;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextHelper_android_drawableEnd = 1;
@@ -3960,8 +4081,8 @@ namespace ElectronicHelper
 					2130968689,
 					2130968782};
 			
-			// aapt resource value: 0x7F080087
-			public const int AppCompatTextView_android_textAppearance = 2131230855;
+			// aapt resource value: 0x7F090087
+			public const int AppCompatTextView_android_textAppearance = 2131296391;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTextView_autoSizeMaxTextSize = 1;
@@ -4105,8 +4226,8 @@ namespace ElectronicHelper
 					2130968830,
 					2130968831};
 			
-			// aapt resource value: 0x7F080096
-			public const int AppCompatTheme_actionBarDivider = 2131230870;
+			// aapt resource value: 0x7F090096
+			public const int AppCompatTheme_actionBarDivider = 2131296406;
 			
 			// aapt resource value: 0x1
 			public const int AppCompatTheme_actionBarItemBackground = 1;
@@ -4465,16 +4586,16 @@ namespace ElectronicHelper
 			public static int[] ButtonBarLayout = new int[] {
 					2130968615};
 			
-			// aapt resource value: 0x7F080216
-			public const int ButtonBarLayout_allowStacking = 2131231254;
+			// aapt resource value: 0x7F090216
+			public const int ButtonBarLayout_allowStacking = 2131296790;
 			
 			public static int[] ColorStateListItem = new int[] {
 					2130968616,
 					16843551,
 					16843173};
 			
-			// aapt resource value: 0x7F080218
-			public const int ColorStateListItem_alpha = 2131231256;
+			// aapt resource value: 0x7F090218
+			public const int ColorStateListItem_alpha = 2131296792;
 			
 			// aapt resource value: 0x1
 			public const int ColorStateListItem_android_alpha = 1;
@@ -4487,8 +4608,8 @@ namespace ElectronicHelper
 					2130968642,
 					2130968643};
 			
-			// aapt resource value: 0x7F080222
-			public const int CompoundButton_android_button = 2131231266;
+			// aapt resource value: 0x7F090222
+			public const int CompoundButton_android_button = 2131296802;
 			
 			// aapt resource value: 0x1
 			public const int CompoundButton_buttonTint = 1;
@@ -4506,8 +4627,8 @@ namespace ElectronicHelper
 					2130968765,
 					2130968794};
 			
-			// aapt resource value: 0x7F080226
-			public const int DrawerArrowToggle_arrowHeadLength = 2131231270;
+			// aapt resource value: 0x7F090226
+			public const int DrawerArrowToggle_arrowHeadLength = 2131296806;
 			
 			// aapt resource value: 0x1
 			public const int DrawerArrowToggle_arrowShaftLength = 1;
@@ -4546,8 +4667,8 @@ namespace ElectronicHelper
 					2130968584,
 					2130968585};
 			
-			// aapt resource value: 0x7F080010
-			public const int FontFamilyFont_android_font = 2131230736;
+			// aapt resource value: 0x7F090010
+			public const int FontFamilyFont_android_font = 2131296272;
 			
 			// aapt resource value: 0x1
 			public const int FontFamilyFont_android_fontStyle = 1;
@@ -4564,8 +4685,8 @@ namespace ElectronicHelper
 			// aapt resource value: 0x5
 			public const int FontFamilyFont_fontWeight = 5;
 			
-			// aapt resource value: 0x7F080003
-			public const int FontFamily_fontProviderAuthority = 2131230723;
+			// aapt resource value: 0x7F090003
+			public const int FontFamily_fontProviderAuthority = 2131296259;
 			
 			// aapt resource value: 0x1
 			public const int FontFamily_fontProviderCerts = 1;
@@ -4593,8 +4714,8 @@ namespace ElectronicHelper
 					2130968728,
 					2130968761};
 			
-			// aapt resource value: 0x7F080235
-			public const int LinearLayoutCompat_android_baselineAligned = 2131231285;
+			// aapt resource value: 0x7F090235
+			public const int LinearLayoutCompat_android_baselineAligned = 2131296821;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_android_baselineAlignedChildIndex = 1;
@@ -4620,8 +4741,8 @@ namespace ElectronicHelper
 					16843137,
 					16842996};
 			
-			// aapt resource value: 0x7F080245
-			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131231301;
+			// aapt resource value: 0x7F090245
+			public const int LinearLayoutCompat_Layout_android_layout_gravity = 2131296837;
 			
 			// aapt resource value: 0x1
 			public const int LinearLayoutCompat_Layout_android_layout_height = 1;
@@ -4642,8 +4763,8 @@ namespace ElectronicHelper
 					16843436,
 					16843437};
 			
-			// aapt resource value: 0x7F080250
-			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131231312;
+			// aapt resource value: 0x7F090250
+			public const int ListPopupWindow_android_dropDownHorizontalOffset = 2131296848;
 			
 			// aapt resource value: 0x1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
@@ -4656,8 +4777,8 @@ namespace ElectronicHelper
 					16843231,
 					16843156};
 			
-			// aapt resource value: 0x7F080253
-			public const int MenuGroup_android_checkableBehavior = 2131231315;
+			// aapt resource value: 0x7F090253
+			public const int MenuGroup_android_checkableBehavior = 2131296851;
 			
 			// aapt resource value: 0x1
 			public const int MenuGroup_android_enabled = 1;
@@ -4699,8 +4820,8 @@ namespace ElectronicHelper
 					2130968760,
 					2130968817};
 			
-			// aapt resource value: 0x7F080260
-			public const int MenuItem_actionLayout = 2131231328;
+			// aapt resource value: 0x7F090260
+			public const int MenuItem_actionLayout = 2131296864;
 			
 			// aapt resource value: 0x1
 			public const int MenuItem_actionProviderClass = 1;
@@ -4779,8 +4900,8 @@ namespace ElectronicHelper
 					2130968745,
 					2130968771};
 			
-			// aapt resource value: 0x7F080284
-			public const int MenuView_android_headerBackground = 2131231364;
+			// aapt resource value: 0x7F090284
+			public const int MenuView_android_headerBackground = 2131296900;
 			
 			// aapt resource value: 0x1
 			public const int MenuView_android_horizontalDivider = 1;
@@ -4814,11 +4935,11 @@ namespace ElectronicHelper
 			public static int[] PopupWindowBackgroundState = new int[] {
 					2130968770};
 			
-			// aapt resource value: 0x7F080298
-			public const int PopupWindowBackgroundState_state_above_anchor = 2131231384;
+			// aapt resource value: 0x7F090298
+			public const int PopupWindowBackgroundState_state_above_anchor = 2131296920;
 			
-			// aapt resource value: 0x7F080294
-			public const int PopupWindow_android_popupAnimationStyle = 2131231380;
+			// aapt resource value: 0x7F090294
+			public const int PopupWindow_android_popupAnimationStyle = 2131296916;
 			
 			// aapt resource value: 0x1
 			public const int PopupWindow_android_popupBackground = 1;
@@ -4830,8 +4951,8 @@ namespace ElectronicHelper
 					2130968735,
 					2130968738};
 			
-			// aapt resource value: 0x7F080300
-			public const int RecycleListView_paddingBottomNoButtons = 2131231488;
+			// aapt resource value: 0x7F090300
+			public const int RecycleListView_paddingBottomNoButtons = 2131297024;
 			
 			// aapt resource value: 0x1
 			public const int RecycleListView_paddingTopNoTitle = 1;
@@ -4855,8 +4976,8 @@ namespace ElectronicHelper
 					2130968777,
 					2130968821};
 			
-			// aapt resource value: 0x7F080303
-			public const int SearchView_android_focusable = 2131231491;
+			// aapt resource value: 0x7F090303
+			public const int SearchView_android_focusable = 2131297027;
 			
 			// aapt resource value: 0x1
 			public const int SearchView_android_imeOptions = 1;
@@ -4913,8 +5034,8 @@ namespace ElectronicHelper
 					16843131,
 					2130968743};
 			
-			// aapt resource value: 0x7F080321
-			public const int Spinner_android_dropDownWidth = 2131231521;
+			// aapt resource value: 0x7F090321
+			public const int Spinner_android_dropDownWidth = 2131297057;
 			
 			// aapt resource value: 0x1
 			public const int Spinner_android_entries = 1;
@@ -4944,8 +5065,8 @@ namespace ElectronicHelper
 					2130968819,
 					2130968820};
 			
-			// aapt resource value: 0x7F080327
-			public const int SwitchCompat_android_textOff = 2131231527;
+			// aapt resource value: 0x7F090327
+			public const int SwitchCompat_android_textOff = 2131297063;
 			
 			// aapt resource value: 0x1
 			public const int SwitchCompat_android_textOn = 1;
@@ -5001,8 +5122,8 @@ namespace ElectronicHelper
 					2130968689,
 					2130968782};
 			
-			// aapt resource value: 0x7F080342
-			public const int TextAppearance_android_fontFamily = 2131231554;
+			// aapt resource value: 0x7F090342
+			public const int TextAppearance_android_fontFamily = 2131297090;
 			
 			// aapt resource value: 0x1
 			public const int TextAppearance_android_shadowColor = 1;
@@ -5071,8 +5192,8 @@ namespace ElectronicHelper
 					2130968810,
 					2130968811};
 			
-			// aapt resource value: 0x7F080356
-			public const int Toolbar_android_gravity = 2131231574;
+			// aapt resource value: 0x7F090356
+			public const int Toolbar_android_gravity = 2131297110;
 			
 			// aapt resource value: 0x1
 			public const int Toolbar_android_minHeight = 1;
@@ -5170,8 +5291,8 @@ namespace ElectronicHelper
 					2130968629,
 					2130968630};
 			
-			// aapt resource value: 0x7F080392
-			public const int ViewBackgroundHelper_android_background = 2131231634;
+			// aapt resource value: 0x7F090392
+			public const int ViewBackgroundHelper_android_background = 2131297170;
 			
 			// aapt resource value: 0x1
 			public const int ViewBackgroundHelper_backgroundTint = 1;
@@ -5184,8 +5305,8 @@ namespace ElectronicHelper
 					16842995,
 					16842994};
 			
-			// aapt resource value: 0x7F080396
-			public const int ViewStubCompat_android_id = 2131231638;
+			// aapt resource value: 0x7F090396
+			public const int ViewStubCompat_android_id = 2131297174;
 			
 			// aapt resource value: 0x1
 			public const int ViewStubCompat_android_inflatedId = 1;
@@ -5193,8 +5314,8 @@ namespace ElectronicHelper
 			// aapt resource value: 0x2
 			public const int ViewStubCompat_android_layout = 2;
 			
-			// aapt resource value: 0x7F080386
-			public const int View_android_focusable = 2131231622;
+			// aapt resource value: 0x7F090386
+			public const int View_android_focusable = 2131297158;
 			
 			// aapt resource value: 0x1
 			public const int View_android_theme = 1;

@@ -19,7 +19,7 @@
     <DeployExternal>False</DeployExternal>
     <AndroidSupportedAbis>armeabi</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions />
-    <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <MandroidI18n />
     <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <AndroidKeyStore>false</AndroidKeyStore>
@@ -88,11 +88,17 @@
     <Reference Include="Xamarin.Android.Support.Core.Utils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.Core.Utils.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Core.Utils.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Android.Support.Design, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Xamarin.Android.Support.Design.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Design.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Android.Support.Fragment, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.Fragment.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Fragment.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.Media.Compat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.Media.Compat.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Media.Compat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.Transition, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Xamarin.Android.Support.Transition.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Transition.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.v4.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v4.dll</HintPath>
@@ -100,27 +106,52 @@
     <Reference Include="Xamarin.Android.Support.v7.AppCompat, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.RecyclerView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Android.Support.Vector.Drawable, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>packages\Xamarin.Android.Support.Vector.Drawable.27.0.2.1\lib\MonoAndroid81\Xamarin.Android.Support.Vector.Drawable.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculationAdapter.cs" />
-    <Compile Include="Calculations.cs" />
     <Compile Include="Capacitors.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="EbooksAdapter.cs" />
+    <Compile Include="GatesActivities\And.cs" />
+    <Compile Include="GatesActivities\Enor.cs" />
+    <Compile Include="GatesActivities\Eor.cs" />
+    <Compile Include="GatesActivities\Nand.cs" />
+    <Compile Include="GatesActivities\Nor.cs" />
+    <Compile Include="GatesActivities\Not.cs" />
+    <Compile Include="GatesActivities\Or.cs" />
     <Compile Include="HomeScreen.cs" />
     <Compile Include="HomeScreenAdapter.cs" />
     <Compile Include="LED.cs" />
     <Compile Include="OhmLaw.cs" />
+    <Compile Include="PlugTypes.cs" />
     <Compile Include="Resisters.cs" />
-    <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="RFCables.cs" />
+    <Compile Include="SplashActivity.cs" />
+    <Compile Include="SwitchTypes.cs" />
     <Compile Include="TableItem.cs" />
     <Compile Include="Transisters.cs" />
+    <Compile Include="UsbTypes.cs" />
+    <Compile Include="Arduino\ArduinoPage.cs" />
+    <Compile Include="Views\EbooksActivity.cs" />
     <Compile Include="Views\Power.cs" />
     <Compile Include="Views\ScaleImageView.cs" />
+    <Compile Include="Views\TabFragment.cs" />
+    <Compile Include="VoltageByCountry.cs" />
+    <Compile Include="WallPlugTypeByCountry.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\VoltageByCountry.png">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
     <AndroidResource Include="Resources\Layout\HomeScreen.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
@@ -132,7 +163,6 @@
     <AndroidResource Include="Resources\Drawable\CapacitorCode.png" />
     <AndroidResource Include="Resources\Drawable\Capacitors.jpg" />
     <AndroidResource Include="Resources\Drawable\ColourCodeResisters.jpg" />
-    <AndroidResource Include="Resources\Drawable\Resisters.jpg" />
     <AndroidResource Include="Resources\Drawable\Logo.png" />
     <AndroidResource Include="Resources\Layout\toolbar.xml" />
     <AndroidResource Include="Resources\menu\top_menus.xml" />
@@ -150,7 +180,6 @@
     <AndroidResource Include="Resources\Values\styles.xml" />
     <AndroidResource Include="Resources\Drawable\LEDVoltage.png" />
     <AndroidResource Include="Resources\Drawable\LED.jpg" />
-    <AndroidResource Include="Resources\Drawable\Transisters.jpg" />
     <AndroidResource Include="Resources\Drawable\TransistersCode.jpg" />
     <AndroidResource Include="Resources\Drawable\Icon.png" />
     <AndroidResource Include="Resources\Layout\CalculationView.axml">
@@ -168,10 +197,89 @@
     </AndroidResource>
     <AndroidResource Include="Resources\Drawable\power.png" />
     <AndroidResource Include="Resources\Drawable\alert.png" />
+    <AndroidResource Include="Resources\Drawable\pinch.png" />
+    <AndroidResource Include="Resources\Drawable\globe.png" />
+    <AndroidResource Include="Resources\Drawable\intPlugTypesByCountry.jpg" />
+    <AndroidResource Include="Resources\Drawable\plug.png" />
+    <AndroidResource Include="Resources\Drawable\plugtypes.jpg" />
+    <AndroidResource Include="Resources\Drawable\iconplugs.jpg" />
+    <AndroidResource Include="Resources\Drawable\usbicon.png" />
+    <AndroidResource Include="Resources\Drawable\usbtypes.png" />
+    <AndroidResource Include="Resources\Drawable\CoaxialCable.jpg" />
+    <AndroidResource Include="Resources\Drawable\IconCoxial.jpg" />
+    <AndroidResource Include="Resources\Layout\Main.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Values\Strings.xml" />
+    <AndroidResource Include="Resources\Drawable\Resisters.png" />
     <AndroidResource Include="Resources\Layout\ImageView.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\Drawable\pinch.png" />
+    <AndroidResource Include="Resources\Drawable\andtable.gif" />
+    <AndroidResource Include="Resources\Drawable\And.gif" />
+    <AndroidResource Include="Resources\Layout\LogicGateLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\OR.gif" />
+    <AndroidResource Include="Resources\Drawable\ortable.gif" />
+    <AndroidResource Include="Resources\Drawable\NOT.gif" />
+    <AndroidResource Include="Resources\Drawable\nottable.gif" />
+    <AndroidResource Include="Resources\Drawable\NAND.gif" />
+    <AndroidResource Include="Resources\Drawable\nandtable.gif" />
+    <AndroidResource Include="Resources\Drawable\NOR.gif" />
+    <AndroidResource Include="Resources\Drawable\nortable.gif" />
+    <AndroidResource Include="Resources\Drawable\EOR.gif" />
+    <AndroidResource Include="Resources\Drawable\eortable.gif" />
+    <AndroidResource Include="Resources\Drawable\ENOR.gif" />
+    <AndroidResource Include="Resources\Drawable\enortable.gif" />
+    <AndroidResource Include="Resources\Drawable\ic_launcher_background.xml" />
+    <AndroidResource Include="Resources\mipmap\round_list_white_18dp.png" />
+    <AndroidResource Include="Resources\mipmap\round_share_white_18dp.png" />
+    <AndroidResource Include="Resources\mipmap\round_star_rate_white_18dp.png" />
+    <AndroidResource Include="Resources\mipmap\round_contact_mail_white_18dp.png" />
+    <AndroidResource Include="Resources\mipmap\round_contact_support_white_18dp.png" />
+    <AndroidResource Include="Resources\Drawable\button_bg_rounded_corners.xml" />
+    <AndroidResource Include="Resources\Drawable\splash_logo.png" />
+    <AndroidResource Include="Resources\Drawable\splash_screen.xml" />
+    <AndroidResource Include="Resources\Drawable\SwitchesType.png" />
+    <AndroidResource Include="Resources\Drawable\SwitchIcon.png" />
+    <AndroidResource Include="Resources\Drawable\Transisters.png" />
+    <AndroidResource Include="Resources\Layout\ArduinoView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\arduinoIcon.png" />
+    <AndroidResource Include="Resources\Drawable\unoIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\leonardoIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\nanoIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\miniIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\oneZeroOneIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\microIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\esploraIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\megaIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\dueIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\yunIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\industrialIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\lilypadIcon.jpg" />
+    <AndroidResource Include="Resources\Drawable\onezeroone.png" />
+    <AndroidResource Include="Resources\Drawable\due.png" />
+    <AndroidResource Include="Resources\Drawable\esplora.jpg" />
+    <AndroidResource Include="Resources\Drawable\Industrial.jpg" />
+    <AndroidResource Include="Resources\Drawable\Leonardo.png" />
+    <AndroidResource Include="Resources\Drawable\LilyPad.png" />
+    <AndroidResource Include="Resources\Drawable\micro.jpg" />
+    <AndroidResource Include="Resources\Drawable\mini.png" />
+    <AndroidResource Include="Resources\Drawable\nano.jpg" />
+    <AndroidResource Include="Resources\Drawable\Tian.jpg" />
+    <AndroidResource Include="Resources\Drawable\uno.jpg" />
+    <AndroidResource Include="Resources\Drawable\yun.png" />
+    <AndroidResource Include="Resources\Drawable\tianIcon.jpg" />
+    <AndroidResource Include="Resources\Layout\ebooks.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Layout\EbooksListView.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\Drawable\mega.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\Layout\CustomView.axml">
@@ -184,6 +292,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <Import Project="packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets" Condition="Exists('packages\Xamarin.Android.Support.Annotations.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Annotations.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
@@ -203,6 +312,9 @@
     <Error Condition="!Exists('packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets'))" />
     <Error Condition="!Exists('packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets'))" />
     <Error Condition="!Exists('packages\Xamarin.Android.Support.v4.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v4.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.v4.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v4.targets'))" />
+    <Error Condition="!Exists('packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets'))" />
+    <Error Condition="!Exists('packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets'))" />
+    <Error Condition="!Exists('packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets'))" />
   </Target>
   <Import Project="packages\Xamarin.Android.Arch.Core.Common.1.0.0.1\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets" Condition="Exists('packages\Xamarin.Android.Arch.Core.Common.1.0.0.1\build\MonoAndroid80\Xamarin.Android.Arch.Core.Common.targets')" />
   <Import Project="packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3.1\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets" Condition="Exists('packages\Xamarin.Android.Arch.Lifecycle.Common.1.0.3.1\build\MonoAndroid80\Xamarin.Android.Arch.Lifecycle.Common.targets')" />
@@ -216,6 +328,9 @@
   <Import Project="packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets" Condition="Exists('packages\Xamarin.Android.Support.Animated.Vector.Drawable.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Animated.Vector.Drawable.targets')" />
   <Import Project="packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets" Condition="Exists('packages\Xamarin.Android.Support.v7.AppCompat.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.AppCompat.targets')" />
   <Import Project="packages\Xamarin.Android.Support.v4.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v4.targets" Condition="Exists('packages\Xamarin.Android.Support.v4.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v4.targets')" />
+  <Import Project="packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets" Condition="Exists('packages\Xamarin.Android.Support.Transition.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Transition.targets')" />
+  <Import Project="packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets" Condition="Exists('packages\Xamarin.Android.Support.v7.RecyclerView.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.v7.RecyclerView.targets')" />
+  <Import Project="packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets" Condition="Exists('packages\Xamarin.Android.Support.Design.27.0.2.1\build\MonoAndroid81\Xamarin.Android.Support.Design.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
      Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

@@ -2,16 +2,12 @@
 <Paths>
   <ManifestDocuments>
     <ManifestDocument>obj\Release\lp\10\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Release\lp\10\jl\manifest\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\11\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Release\lp\11\jl\manifest\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\12\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Release\lp\12\jl\manifest\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\13\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\3\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\4\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\6\jl\AndroidManifest.xml</ManifestDocument>
-    <ManifestDocument>obj\Release\lp\6\jl\manifest\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\7\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\8\jl\AndroidManifest.xml</ManifestDocument>
     <ManifestDocument>obj\Release\lp\9\jl\AndroidManifest.xml</ManifestDocument>
