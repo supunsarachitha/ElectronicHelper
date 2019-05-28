@@ -7,9 +7,8 @@ Electronic Helper is a very small tool that design to help day today activities 
 This app will help to electronic workers, students and teachers as a tool and educational application. There are no internet connection needed to run this app. application is very small as 10 MB. There are no hidden permissions or battery draining services. 
 
 <a href="https://play.google.com/store/apps/details?id=lk.stechbuzz.electronic">
-<img border="0" alt="On Google Play" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" width="200" height="50">
+<img border="0" alt="On Google Play" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Get_it_on_Google_play.svg/1280px-Get_it_on_Google_play.svg.png" width="200" height="70">
 </a>
 
-https://play.google.com/store/apps/details?id=lk.stechbuzz.electronic
 
 
