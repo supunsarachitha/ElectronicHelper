@@ -1,6 +1,6 @@
 # Electronic Helper
 
-Xmarin.android application for design as a electronics eduction tool
+<b>Xmarin.android application for design as a electronics eduction tool</b>
 
 Electronic Helper is a very small tool that design to help day today activities for electronic engineers and students. It brings all electronic components to one place. Also it gives basic ideas about electronic components. There are few calculation also included to simplify the mathematical tasks.
 
