@@ -4,7 +4,4 @@ Xmarin.android application for design as a electronics eduction tool
 
 https://play.google.com/store/apps/details?id=lk.stechbuzz.electronic
 
-<p align="center">
-  <img src="your_relative_path_here" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
-</p>
+<img border="0" alt=" Get it on Google Play" src="https://www.gstatic.com/android/market_images/web/play_prism_hlock_2x.png" width="100" height="100">
